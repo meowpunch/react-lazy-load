@@ -6,7 +6,6 @@ interface GridProps {
     c: number
 }
 
-
 /*
     - chunk by col
     - spread them in Grid
