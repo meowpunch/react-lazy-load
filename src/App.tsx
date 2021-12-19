@@ -1,36 +1,12 @@
 import React from 'react';
 import './App.css';
+import Grid from './component/Grid';
 import Images from './constant/Images';
 
 
 const Image = (url: string) => {
     return (
         <img src={url} alt="dummy"/>
-    )
-}
-
-
-/*
-    - chunk by col
-    - spread them in Grid
- */
-interface GridProps {
-    arr: JSX.Element[]
-    c: number
-}
-
-const chunk = <T, >(arr: T[], size: number) =>
-    [...Array(Math.ceil(arr.length / size))].map((_, i) => arr.slice(i * size, i * size + size));
-
-const Grid = (props: GridProps) => {
-    const {arr, c} = props;
-
-    const chunks: JSX.Element[][] = chunk(arr, c);
-
-    return (
-        <div>
-            {chunks.map(c => <div>{c}</div>)}
-        </div>
     )
 }
 
