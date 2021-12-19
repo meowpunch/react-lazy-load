@@ -18,7 +18,7 @@ const Grid = (props: GridProps) => {
 
     return (
         <div>
-            {chunks.map(c => <div>{c}</div>)}
+            {chunks.map((c, i) => <div style={{width: 900, height: 300}} key={i}>{c}</div>)}
         </div>
     )
 }
