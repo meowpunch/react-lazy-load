@@ -1,20 +1,17 @@
 # Lazy Loading
+In order to enhance user experience, optimize performance with lazy loading
 
-Loading all the images in one page at once worse makes user experience worse. While scrolling, render only images in the intersection with [Viewport](https://developer.mozilla.org/en-US/docs/Glossary/Viewport)
-Lazy 
-
-- React & Typescript
-- [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
-
-## Requirements
 - spread out images within Grid.
 - apply lazy loading to images.
 
-## Get Started
+This project doesn't include test
 
-- Node v17.2.0
-- npm v8.1.4
- 
+## Get Started
+### Setup
+- Node : v17.2.0
+- npm : v8.1.4
+
+### Run
 ```shell
 # install all the dependencies
 npm install
@@ -22,3 +19,8 @@ npm install
 # run app
 npm start
 ```
+
+## Core
+- React & Typescript
+- [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
+

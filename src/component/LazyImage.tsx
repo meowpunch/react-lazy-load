@@ -25,7 +25,7 @@ const LazyImage = (props: Props) => {
 
     useEffect(() => {
         if (imgRef.current) setEntry(imgRef.current)
-    }, [imgRef]);
+    }, [imgRef, setEntry]);
 
     return (
         <img ref={imgRef} data-src={url} alt="dummy"/>

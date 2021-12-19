@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Grid from './component/Grid';
 import Images from './asset/Images';
 import LazyImage from "./component/LazyImage";
