@@ -19,7 +19,7 @@ npm install
 # run app
 npm start
 ```
-- You can check the image lazy loading in network.
+- While running the app, you can check the image lazy loading in network.
 <img width="1792" alt="Screen Shot 2021-12-19 at 12 24 50 PM" src="https://user-images.githubusercontent.com/40639955/146673198-02fc3ef6-cce1-498e-b271-3aa87aea8b7c.png">
 
 ## Reference
