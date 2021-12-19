@@ -1,4 +1,4 @@
-const buildImages = (n: number) => [...Array(n)].map((_, i) => `https://picsum.photos/id/${i}/300/300`);
+const buildImages = (n: number) => [...Array(n)].map(_ => `https://picsum.photos/id/${Math.floor(Math.random() * n)}/300/300`);
 
 const Images = {buildImages}
 

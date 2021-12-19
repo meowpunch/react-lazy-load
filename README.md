@@ -9,9 +9,6 @@ Loading all the images in one page at once worse makes user experience worse. Wh
 - spread out images within Grid.
 - apply lazy loading to images.
 
-
-
-
 ## Get Started
 
 - Node v17.2.0
